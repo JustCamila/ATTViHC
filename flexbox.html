@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox - Aula de CSS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+
+  <header>
+    <h1>Flexbox - Aula de CSS</h1>
+    <a href="index.html">⬅ Voltar ao Hub</a>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>O que é o Flexbox?</h2>
+      <p>
+       O Flexible Box Module, geralmente chamado de flexbox, foi projetado tanto como um modelo de layout unidimensional quanto como um método capaz de organizar espacialmente os elementos em uma interface, além de possuir capacidades avançadas de alinhamento. 
+        Com o Flexbox, conseguimos criar layouts flexíveis e responsivos sem precisar usar <code>float</code> ou <code>position</code> complexos.
+      </p>
+      <p>Os valores principais são:</p>
+      <ul>
+        <li><strong>row</strong> — em linha (padrão);</li>
+        <li><strong>column</strong> — em coluna;</li>
+        <li><strong>row-reverse ou column-reverse</strong> — inverte a ordem.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Exemplo Prático</h2>
+      <div class="container">
+        <div class="caixa">1</div>
+        <div class="caixa">2</div>
+        <div class="caixa">3</div>
+        </div>
+    </section>
+
+    <section>
+      <h2>Atividade Prática</h2>
+      <p>
+        Crie uma página simples contendo:
+      </p>
+      <ul>
+        <li>Um contêiner com <code>display: flex</code>;</li>
+        <li>Três caixas com cores diferentes;</li>
+        <li>Use <code>justify-content</code> para centralizar os elementos horizontalmente;</li>
+        <li>Use <code>align-items</code> para centralizar verticalmente;</li>
+        <li>Altere <code>flex-direction</code> para column e veja como o layout muda;</li>
+        <li>Adicione <code>flex-wrap: wrap</code> e mais caixas para testar o comportamento com quebra de linha.</li>
+      </ul>
+    </section>
+    
+    <section class="teste-css">
+      <h2>🧩 Área de Testes</h2>
+      <p>Altere as propriedades no arquivo <strong>flexbox.css</strong> e veja o resultado abaixo:</p>
+        <div class="container">
+            <div class="caixa c1">1</div>
+            <div class="caixa c2">2</div>
+            <div class="caixa c3">3</div>
+            <div class="caixa c4">4</div>
+        </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Caio Rafael Wendler — © 2025</p>
+  </footer>
+
+</body>
+</html>

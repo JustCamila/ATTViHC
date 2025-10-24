@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+.caixa {
+  background: #00d8ff;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.containerteste {
+  display: grid;                         
+  grid-template-columns: 1fr 1fr 1fr;    
+  grid-template-rows: 70px 70px;      
+  gap: 10px;                            
+  padding: 20px;
+}
+
+.c1 { background: #70eeff; }
+.c2 { background: #35a4ff; }
+.c3 { background: #e2bafd; }
+.c4 { background: #fff894; }
+.c5 { background: #76f9c5; }
+
+.c1 {
+  grid-column: 1 / 3;
+}

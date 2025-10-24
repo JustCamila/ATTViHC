@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.caixa {
+  background: #00d8ff;
+  color: black;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.caixa1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: lightcoral;
+}
+
+.caixa2 {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background: lightblue;
+}
+
+.caixa3 {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background: lightgreen;
+}

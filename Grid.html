@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid - Aula de CSS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+
+  <header>
+    <h1>Flexbox - Aula de CSS</h1>
+    <a href="index.html">⬅ Voltar ao Hub</a>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>O que é o Grid?</h2>
+      <p>
+        O Grid é um sistema de layout bidimensional (linhas e colunas) que permite criar estruturas complexas de forma simples e organizada.
+      </p>
+      <p>As propriedades principais são:</p>
+      <ul>
+        <li><strong>grid-template-columns</strong> — define as colunas (ex: <code>grid-template-columns: 1fr 1fr 1fr;</code> cria 3 colunas iguais);</li>
+        <li><strong>grid-template-rows</strong> — define as linhas (ex: <code>grid-template-rows: 100px 100px;</code> cria 2 linhas fixas);</li>
+        <li><strong>gap</strong> — define o espaçamento entre linhas e colunas.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Exemplo Prático</h2>
+        <div class="container">
+        <div class="caixa">caixa 1</div>
+        <div class="caixa">caixa 2</div>
+        <div class="caixa">caixa 3</div>
+        <div class="caixa">caixa 4</div>
+        </div>
+    </section>
+
+    <section>
+      <h2>Atividade Prática</h2>
+      <p>
+        Crie uma página simples contendo:
+      </p>
+      <ul>
+        <li>Um contêiner com <code>display: grid</code>;</li>
+        <li>Defina 3 colunas e 2 linhas com <code>grid-template-columns</code> e <code>grid-template-rows;</code></li>
+        <li>Aplique <code>gap</code> para espaçar os itens;</li>
+        <li>Faça um dos elementos ocupar duas colunas com <code>grid-column</code>;</li>
+      </ul>
+    </section>
+    
+    <section class="teste-css">
+      <h2>🧩 Área de Testes</h2>
+      <p>Altere as propriedades no arquivo <strong>Grid.css</strong> e veja o resultado abaixo:</p>
+        <div class="containerteste">
+            <div class="caixa c1">caixa 1</div>
+            <div class="caixa c2">caixa 2</div>
+            <div class="caixa c3">caixa 3</div>
+            <div class="caixa c4">caixa 4</div>
+            <div class="caixa c5">caixa 5</div>
+        </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Caio Rafael Wendler — © 2025</p>
+  </footer>
+
+</body>
+</html>
